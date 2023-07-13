@@ -6,7 +6,7 @@
     const minus =
         'M3.75 12v0c0-.42.33-.75.75-.75h15v0c.41 0 .75.33.75.75 0 .41-.34.75-.75.75h-15v0c-.42 0-.75-.34-.75-.75Z';
 
-    let active = false;
+    export let active = false;
 </script>
 
 <button
