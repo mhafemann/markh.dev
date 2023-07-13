@@ -45,7 +45,7 @@
 <button
     type="button"
     aria-pressed={$theme === 'dark'}
-    class="h-12 w-12 flex items-center justify-center text-brand"
+    class="h-12 w-12 flex items-center justify-center"
     on:click={toggleTheme}>
     <span class="sr-only">
         {`Activate ${$theme === 'dark' ? 'light' : 'dark'} theme.`}
